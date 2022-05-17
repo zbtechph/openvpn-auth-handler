@@ -17,6 +17,11 @@ so that we can return the proper exit code
 Download or clone this repository
 and open auth.py and change endpoint value to your api endpoint
 
+chmod auth.py
+```
+chmod +x ./openvpn-agent/auth.py
+```
+
 add this line to your openvpn server config
 usually `/etc/openvpn/server.conf`
 ```
